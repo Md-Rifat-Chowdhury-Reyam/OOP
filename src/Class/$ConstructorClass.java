@@ -4,6 +4,7 @@ public class $ConstructorClass {
 
     $ConstructorClass()
     {
+        super();
         System.out.println( "Constructor called");
     }
 
