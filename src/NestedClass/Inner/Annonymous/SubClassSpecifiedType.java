@@ -15,7 +15,7 @@ class Annonymousclass
     //An anonymous class with super class as base class
     static SubClassSpecifiedType sc = new SubClassSpecifiedType()
     {
-        void display()
+        void display()//In anonymous class display() method is overridden.
         {
             super.display();
 
