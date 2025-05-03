@@ -15,17 +15,12 @@ public class ExampleOuter {
             System.out.println("static int b = " + b);
 
             System.out.println("private int c = " + c);
+
+
         }
 
     }
 
-    public static void main(String[] args) {
 
-        ExampleOuter eo = new ExampleOuter();
-
-        ExampleOuter.InnerClass in = eo.new InnerClass();
-
-        in.disPlay();
-    }
 
 }
