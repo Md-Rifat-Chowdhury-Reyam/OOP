@@ -1,11 +1,11 @@
-package NestedClass;
+package NestedClass.Static;
 
 
 //outer class
 public class StaticNestedOuterClass
 {
 
-    String name = "Rifat";
+    String name = "Rifat"; //instance variable
     static  int id = 1;
     private String locatioN = "Rangpur";
 
