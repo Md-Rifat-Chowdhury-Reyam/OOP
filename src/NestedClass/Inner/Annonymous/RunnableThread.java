@@ -2,7 +2,9 @@ package NestedClass.Inner.Annonymous;
 
 public class RunnableThread {
     public static void main(String[] args) {
-
+// Here we are using Anonymous Inner class
+        // that implements a interface i.e. Here Runnable
+        // interface
         Runnable r = new Runnable()
         {
             @Override
