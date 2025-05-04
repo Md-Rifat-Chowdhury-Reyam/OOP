@@ -1,4 +1,4 @@
-package BasicClass;
+package Class.BasicClass;
 
 public class methodClass {
     public void PrintMethod()

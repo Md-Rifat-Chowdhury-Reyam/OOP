@@ -1,4 +1,4 @@
-package NestedClass.Inner;
+package Class.NestedClass.Inner;
 
 public class ExampleOuter {
 

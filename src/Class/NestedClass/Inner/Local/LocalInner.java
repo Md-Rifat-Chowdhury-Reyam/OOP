@@ -1,4 +1,4 @@
-package NestedClass.Inner.Local;
+package Class.NestedClass.Inner.Local;
 
 public class LocalInner {
 

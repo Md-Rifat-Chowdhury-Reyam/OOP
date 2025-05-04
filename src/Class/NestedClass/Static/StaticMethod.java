@@ -1,6 +1,4 @@
-package NestedClass.Static;
-
-import org.w3c.dom.ls.LSOutput;
+package Class.NestedClass.Static;
 
 public class StaticMethod {
 

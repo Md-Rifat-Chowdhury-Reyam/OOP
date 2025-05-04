@@ -1,4 +1,4 @@
-package BasicClass;
+package Class.BasicClass;
 
 import java.lang.reflect.*;
 
@@ -8,7 +8,7 @@ public class CreateObjectMethod
     public static void main(String[] args)
     {
         try {
-            Class<?> c = Class.forName("BasicClass.CreateObjectMethod");
+            Class<?> c = Class.forName("Class.BasicClass.CreateObjectMethod");
             CreateObjectMethod cl =  (CreateObjectMethod) c.getDeclaredConstructor().newInstance();
 
             System.out.println(cl.search);

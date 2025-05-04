@@ -1,4 +1,4 @@
-package Basic;
+package Class.BasicClass;
 
 public class Student {
     public   int id;

@@ -1,4 +1,4 @@
-package NestedClass.Static;
+package Class.NestedClass.Static;
 
 
 //outer class

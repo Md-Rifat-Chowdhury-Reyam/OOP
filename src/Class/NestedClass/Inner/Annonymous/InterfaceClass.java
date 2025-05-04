@@ -1,4 +1,4 @@
-package NestedClass.Inner.Annonymous;
+package Class.NestedClass.Inner.Annonymous;
 
 public interface InterfaceClass {
     int a = 30;
