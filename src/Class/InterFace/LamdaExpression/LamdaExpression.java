@@ -1,4 +1,4 @@
-package Class.InterFace;
+package Class.InterFace.LamdaExpression;
 
 public class LamdaExpression {
 
