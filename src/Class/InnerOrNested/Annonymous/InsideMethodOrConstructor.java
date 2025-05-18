@@ -7,7 +7,11 @@ public class InsideMethodOrConstructor {
             @Override
             public void run() {
 
+                System.out.println("i am runnable");
             }
         });
+
+        t.start();
+        System.out.println("main thread");
     }
 }
