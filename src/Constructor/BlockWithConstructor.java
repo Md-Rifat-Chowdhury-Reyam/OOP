@@ -5,9 +5,29 @@ package Constructor;
  * we can put the code in the init block.
  * Init block is always executed before any constructor,
  * whenever a constructor is used for creating a new object.
+ * There are 3 areas where we can use the initializer blocks:
+ *
+ * Constructors
+ * Methods
+ * Blocks
  */
 
 public class BlockWithConstructor {
+
+    //instance initializer block (IIB)
+    {
+        int sum = 4 + 5;
+        System.out.println( sum);
+    }
+
+    // Static block
+    static
+    {
+        // Print statement
+        System.out.print(
+                "Static block can be printed without main method");
+    }
+
     BlockWithConstructor()
     {
         System.out.println("I am deafult");
