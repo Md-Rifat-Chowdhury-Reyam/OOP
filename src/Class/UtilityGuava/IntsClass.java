@@ -1,6 +1,6 @@
 package Class.UtilityGuava;
 
-import com.google.common.primitives.Ints;
+//import com.google.common.primitives.Ints;
 import java.util.*;
 
 /**
@@ -17,8 +17,8 @@ public class IntsClass {
         int[] arr1 = { 5, 10, 15 };
         int[] arr2 = { 20, 25 };
 
-        int[] arrConCat = Ints.concat(arr1, arr2);
+//        int[] arrConCat = Ints.concat(arr1, arr2);
 
-        System.out.println(Arrays.toString(arrConCat));
+//        System.out.println(Arrays.toString(arrConCat));
     }
 }
