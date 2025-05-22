@@ -8,6 +8,7 @@ public class Example4 {
 
         Base b = new Derives();
         b.info();
+        Base.print();
     }
 }
 
@@ -16,6 +17,11 @@ abstract class Base
     final void info()
     {
         System.out.println("I am final method");
+    }
+
+    static  void print()
+    {
+        System.out.println("I am static method");
     }
 }
 class Derives extends Base
