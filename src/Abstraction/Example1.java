@@ -1,5 +1,11 @@
 package Abstraction;
 
+/**
+ * // here if we remove the abstract
+ * // keyword then we will get compile
+ * // time error due to abstract method
+ */
+
 // Abstract class representing a Vehicle (hiding implementation details)
 abstract class Vehicle
 {
