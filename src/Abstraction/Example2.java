@@ -1,6 +1,6 @@
 package Abstraction;
 
-
+//An instance of an abstract class can not be created.
 abstract class Student
 {
     abstract void info();
