@@ -33,10 +33,8 @@ class CSE  extends Course
         System.out.println("couse list : java, cnn, PHP, c++");
     }
 
-    @Override
-    void displayFees(int amount) {
-        super.displayFees(amount);
-    }
+    // This class only inherits the Base class's non-abstract methods and
+    // properties
 }
 
 public class Exampl3 {
