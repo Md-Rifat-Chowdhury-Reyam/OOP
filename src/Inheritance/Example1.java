@@ -3,6 +3,10 @@ package Inheritance;
 public class Example1 {
     public static void main(String[] args) {
 
+        /**
+         * Note: During inheritance only the object of the subclass is created,
+         * Snot the superclass. For more, refer to Java Object Creation of Inherited Class.
+         */
         Dog d = new Dog();
         d.makeSound();
         d.eat();
