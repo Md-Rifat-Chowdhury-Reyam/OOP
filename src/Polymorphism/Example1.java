@@ -10,9 +10,15 @@ public class Example1 {
         B b = new B();
         b.printInfo();
 
+        //Dynamic dispatch
+        A parentClassObject = new B(); //referring type parent class and initializing child class
         // Polymorphism in action
-        A parentClassObject = new B(); //referring child class
         parentClassObject.printInfo("Nobita", 4);
+
+        // If a Parent type reference refers
+        // to a Child object Child's method
+        // is called. This is called RUN TIME
+        // POLYMORPHISM.
 
 
     }
@@ -30,6 +36,12 @@ class A
     void printInfo(String name, int id)
     {
         System.out.println("name is : " + name + " id is " + id);
+    }
+
+    static void metd() // // Static method in base class
+    // which will be hidden in subclass
+    {
+        System.out.println("static");
     }
 }
 
