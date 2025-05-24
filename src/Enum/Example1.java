@@ -12,7 +12,7 @@ public class Example1 {
 
         // Enum constructor called separately for each
         // constant
-        private Days() //constructor will be private
+        private Days() //constructor can't be public or protected
         {
             System.out.println("week days : " + this.toString());
         }
