@@ -9,14 +9,24 @@ public class Example1 {
         SAT,
         SUN,
         MON;
+
+        // Enum constructor called separately for each
+        // constant
+        private Days() //constructor will be private
+        {
+            System.out.println("week days : " + this.toString());
+        }
     }
+
+
     public static void main(String[] args) {
+
+        Days d = Days.MON;
+        System.out.println(d);
 
         Color c = Color.RED;
         System.out.println(c);
 
-        Days d = Days.MON;
-        System.out.println(d);
 
     }
 }
