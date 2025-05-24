@@ -23,7 +23,7 @@ public class CustomizeEnum {
         TrafficLight[] tl = TrafficLight.values();
         for(TrafficLight t : tl)
         {
-            System.out.println("Traffic signal : " + t.name() + " means " + t.getAction());
+            System.out.println("Traffic signal : " + t.name() + " means " + t.getAction() );
         }
     }
 }
