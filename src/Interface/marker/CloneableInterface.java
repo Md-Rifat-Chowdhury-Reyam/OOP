@@ -5,7 +5,7 @@ public class CloneableInterface {
 
         ParentClass pc = new ParentClass(20);
 
-        //
+        // down-casting as clone() return type is Object
         ParentClass pc2 = (ParentClass) pc.clone();
         System.out.println(pc2.i);
 
