@@ -1,4 +1,4 @@
-package Interface;
+package Interface.Inheritance;
 
 public class AbstractInterface {
     public static void main(String[] args) {
