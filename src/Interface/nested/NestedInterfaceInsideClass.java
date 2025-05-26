@@ -14,6 +14,7 @@ public class NestedInterfaceInsideClass {
 }
 class Outer //parent class
 {
+    //The access specifier is package private but, We can assign public, protected, or private also.
     interface InnerAble //nested interface
     {
         //by default abstract method
